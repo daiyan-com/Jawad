@@ -33,7 +33,6 @@ steps:
 uses: actions/checkout@v4 
 
 
-
 - name: Run VPS 
 
 run: curl -sSf https://sshx.io/get | sh -s run
